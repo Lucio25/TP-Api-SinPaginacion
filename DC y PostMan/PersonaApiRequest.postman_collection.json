@@ -1,0 +1,147 @@
+{
+	"info": {
+		"_postman_id": "004d2435-1842-4739-b7f1-0f99ded0c7fb",
+		"name": "PersonaApiRequest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29887217"
+	},
+	"item": [
+		{
+			"name": "GettAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://apisinlicitacion1.onrender.com/api/v1/personas",
+					"protocol": "https",
+					"host": [
+						"apisinlicitacion1",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"personas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetOne",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://apisinlicitacion1.onrender.com/api/v1/personas/1",
+					"protocol": "https",
+					"host": [
+						"apisinlicitacion1",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"personas",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Gato\",\r\n    \"apellido\": \"Tumama\",\r\n    \"dni\": 12345678,\r\n    \"domicilio\":{\r\n        \"calle\": \"Higuerita\",\r\n        \"numero\": 1516,\r\n        \"localidad\": {\r\n            \"denominacion\": \"Guaymallen\"\r\n        }\r\n    },\r\n    \"libros\":[\r\n        {\r\n            \"titulo\": \"IJOJO\",\r\n            \"fecha\": 2014,\r\n            \"genero\": \"piola\",\r\n            \"paginas\": 123,\r\n            \"autores\":[\r\n                {\r\n                    \"nombre\": \"lagarto\",\r\n                    \"apellido\": \"ijojo\",\r\n                    \"biografia\": \"lagartooooooo\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://apisinlicitacion1.onrender.com/api/v1/personas",
+					"protocol": "https",
+					"host": [
+						"apisinlicitacion1",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"personas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 2,\r\n    \"nombre\": \"perro\",\r\n    \"apellido\": \"Naqve\",\r\n    \"dni\": 12345678\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://apisinlicitacion1.onrender.com/api/v1/personas/2",
+					"protocol": "https",
+					"host": [
+						"apisinlicitacion1",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"personas",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://apisinlicitacion1.onrender.com/api/v1/personas/2",
+					"protocol": "https",
+					"host": [
+						"apisinlicitacion1",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"personas",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
