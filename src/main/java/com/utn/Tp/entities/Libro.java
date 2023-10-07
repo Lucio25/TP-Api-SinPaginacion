@@ -12,7 +12,7 @@ import lombok.Setter;
 import java.util.List;
 
 @Entity
-@Table(name = "domicilio")
+@Table(name = "libros")
 @Getter
 @Setter
 @NoArgsConstructor
