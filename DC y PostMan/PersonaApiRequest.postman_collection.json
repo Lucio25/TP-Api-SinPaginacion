@@ -58,7 +58,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"nombre\": \"Gato\",\r\n    \"apellido\": \"Tumama\",\r\n    \"dni\": 12345678,\r\n    \"domicilio\":{\r\n        \"calle\": \"Higuerita\",\r\n        \"numero\": 1516,\r\n        \"localidad\": {\r\n            \"denominacion\": \"Guaymallen\"\r\n        }\r\n    },\r\n    \"libros\":[\r\n        {\r\n            \"titulo\": \"IJOJO\",\r\n            \"fecha\": 2014,\r\n            \"genero\": \"piola\",\r\n            \"paginas\": 123,\r\n            \"autores\":[\r\n                {\r\n                    \"nombre\": \"lagarto\",\r\n                    \"apellido\": \"ijojo\",\r\n                    \"biografia\": \"lagartooooooo\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"nombre\": \"Lucio\",\r\n    \"apellido\": \"Malgioglio\",\r\n    \"dni\": 12345678,\r\n    \"domicilio\":{\r\n        \"calle\": \"Higuerita\",\r\n        \"numero\": 1516,\r\n        \"localidad\": {\r\n            \"denominacion\": \"Guaymallen\"\r\n        }\r\n    },\r\n    \"libros\":[\r\n        {\r\n            \"titulo\": \"Tarde\",\r\n            \"fecha\": 2014,\r\n            \"genero\": \"Terror\",\r\n            \"paginas\": 123,\r\n            \"autores\":[\r\n                {\r\n                    \"nombre\": \"Juan\",\r\n                    \"apellido\": \"Gonzales\",\r\n                    \"biografia\": \"Juan Gonzales nació en Santa Fe. Argentina, en 1958. Desde los cinco años vivió en Mendoza, posteriormente en El Trapiche, pequena localIdad serrana a 40 km de la Ciudad de San Luis. Estudio Licenciatura en Letras en La Universidad de Cuyo y ejerció la docencia en colegios de la misma universidad.\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -95,7 +95,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id\": 2,\r\n    \"nombre\": \"perro\",\r\n    \"apellido\": \"Naqve\",\r\n    \"dni\": 12345678\r\n}",
+					"raw": "{\r\n    \"id\": 2,\r\n    \"nombre\": \"Pedro\",\r\n    \"apellido\": \"Martinez\",\r\n    \"dni\": 12345678\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
